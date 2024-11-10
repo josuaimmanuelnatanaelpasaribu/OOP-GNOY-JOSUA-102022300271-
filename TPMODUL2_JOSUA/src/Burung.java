@@ -1,5 +1,3 @@
-package TPMODUL2_JOSUA;
-
 public class Burung extends Hewan {
     private String warnaBulu;
 

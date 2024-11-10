@@ -1,5 +1,3 @@
-package TPMODUL2_JOSUA;
-
 public class Kucing extends Hewan {
     private String ras;
 

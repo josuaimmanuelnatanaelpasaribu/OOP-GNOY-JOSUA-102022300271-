@@ -1,5 +1,3 @@
-package TPMODUL2_JOSUA;
-
 public class Hewan {
     protected String nama;
     protected int umur;
