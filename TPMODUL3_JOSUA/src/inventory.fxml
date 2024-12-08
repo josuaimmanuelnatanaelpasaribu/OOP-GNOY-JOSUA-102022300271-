@@ -1,0 +1,23 @@
+<BorderPane>
+    <TableView fx:id="albumTable">
+        <columns>
+            <TableColumn text="Album Name" />
+            <TableColumn text="Artist" />
+            <TableColumn text="Total" />
+            <TableColumn text="Available" />
+            <TableColumn text="Rented" />
+        </columns>
+    </TableView>
+    <VBox spacing="10" alignment="CENTER">
+        <TextField fx:id="albumNameField" promptText="Album Name" />
+        <TextField fx:id="artistField" promptText="Artist" />
+        <TextField fx:id="totalField" promptText="Total" />
+        <TextField fx:id="availableField" promptText="Available" />
+        <HBox spacing="10">
+            <Button text="Rent Selected" onAction="#rentSelected" />
+            <Button text="Tambah" onAction="#addAlbum" />
+            <Button text="Hapus" onAction="#deleteAlbum" />
+            <Button text="Update" onAction="#updateAlbum" />
+        </HBox>
+    </VBox>
+</BorderPane>
