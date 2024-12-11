@@ -17,7 +17,7 @@ public class LoginController {
 
         if (username.equals("josua102022300271") && password.equals("1234")) {
             Stage stage = (Stage) usernameField.getScene().getWindow();
-            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("src/inventory.fxml"))));
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/inventory.fxml"))));
         } else {
             Alert alert = new Alert(Alert.AlertType.ERROR, "Invalid Username or Password!");
             alert.showAndWait();
